@@ -1,5 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 
+/*nav bar styles*/
 .portfolio-logo {
   font-family: fantasy;
+}
+
+/*chat image styles*/
+.chat-bubble {
+  margin: 0 auto;
+}
+
+ i.fa-comments {
+   font-size: 200px;
+   display:block;
+ }
+
+
+/*projects styles*/
+
+.project-img {
+
+}
+
+
+/*Footer section styles*/
+
+.footer {
+  height: 130px;
+  background-color: #167c07;
+  opacity: .7;
+  margin-top: 15px;
+  padding-top: 15px;
+}
+
+.contact-info,
+.social {
+  color: grey;
+  margin-top: 10px;
+  border-left-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+  a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+.fine-print {
+  font-size: small;
 }
