@@ -11,7 +11,7 @@
 
 <body>
   <!--Nav Bar begins-->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,12 +27,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="#">Projects<span class="sr-only">(current)</span></a></li>
         <li><a href="#">Link</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#">Contact</a></li>
           </ul>
         </li>
       </ul>
@@ -40,47 +40,69 @@
   </div><!-- /.container-fluid -->
 </nav> <!--Nav bar section ends-->
 
- <!--Chat Image starts-->
-<div class="container-fluid">
-	<div class="row">
-		<div class="chat-bubble">
-			<i class="fa fa-comments text-center" aria-hidden="true"></i>
+<!-- hero starts -->
+<div class="container-fluid hero">
+		<div class="container hero-box">
+			<div class="row">
+				<div class="text-center">
+					<h1 class="primary-fontt"> Computer Programmer </h1>
+				</div>
+				<div class="col-sm-6 col-xs-offset-1 thin-text">
+						<h3 class="thick-text text-cnter">A Little About Myself</h3>
+						<p class="text-justify secondary-font thin-text">This is the section where i talk about myself. im going to say lots of stuff that has to do with my work and how i tie it to my passion. skills facilitate your dreams</p>
+						<p class="text-justify secondary-font thin-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur inventore dolorum molestias provident tempora mollitia quam odio necessitatibus asperiores voluptate, nesciunt, eos minima quibusdam sint eius culpa nam eum.</p>
+				</div>
+				<div class="col-sm-4 col-sm-offset-1">
+					<img src="img/me.jpg" class="me-img" alt="Me">
+			</div>
 		</div>
 	</div>
 </div>
- <!--Chat Image ends  -->
 
  <!-- Bio and Project section starts here  -->
-<div class="container">
-	<div class="row">
-		<div class="col-sm-6 bio"><!--bio section starts-->
-			<h1>Hi!</h1>
-			<p>This is the section where i talk about myself. im going to say lots of stuff that has to do with my work and how i tie it to my passion. skills facilitate your dreams</p>
-		</div><!--bio section ends-->
-		<div class="col-sm-6 projects">
-			<div class="row"><!--pet project starts-->
-        <div class="col-xs-2 col-sm-2">
-          <img src="img/petstore_logo.png" alt="pet-store" height="100" width="100" class="img-circle">
-        </div>
-        <div class="col-xs-6 col-sm-8">
-          <h3>Dr. Joe Smith</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quis laborum, ab quia. Soluta praesentium, voluptates, quidem excepturi voluptatem nobis non perspiciatis impedit quo!</p>
-        </div>
-      </div><!--pet project ends-->
-        <div class="row"><!--restuarant project starts-->
-          <div class="col-xs-2 col-sm-2">
-            <img src="img/dessert1.jpg" alt="pet-store" height="100" width="100" class="img-circle">
-          </div>
-          <div class="col-xs-6 col-sm-8">
-            <h3>Dr. Jane Smith</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dicta recusandae eaque maxime rerum, architecto consequatur ratione id vero expedita aut, dolore ducimus magnam!</p>
-          </div>
-      </div><!--restuarant project ends-->
-		</div>
-	</div>
-</div>
+
+ <div id="review" class="container-fluid min-height">
+ 	<div class="row text-center">
+ 		<div class="center min-height">
+ 			<div class="col-sm-8 review-container">
+				<div class="row"><!--pet project starts-->
+					<div class="col-xs-3 col-sm-3">
+						<img src="img/petstore_logo.png" alt="pet-store" height="100" width="100" class="img-circle">
+					</div>
+					<div class="col-xs-3 col-sm-3">
+						<h3>Pet Store Website</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quis laborum, ab quia. Soluta praesentium, voluptates, quidem excepturi voluptatem nobis non perspiciatis impedit quo!</p>
+					</div>
+				<!--pet project ends-->
+					<!--restuarant project starts-->
+						<div class="col-xs-9 col-sm-9">
+							<img src="img/dessert1.jpg" alt="pet-store" height="100" width="100" class="img-circle">
+						</div>
+						<div class="col-xs-9 col-sm-9">
+							<h3>Restuarant Website</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis dicta recusandae eaque maxime rerum, architecto consequatur ratione id vero expedita aut, dolore ducimus magnam!</p>
+						</div>
+				<!--restuarant project ends-->
+ 			</div>
+ 		</div>
+ 	 </div>
+  </div> <!--end of review-->
+ </div>
+
+
+
 
  <!-- Bio and Project section ends here -->
+
+ <!--Chat Image starts-->
+<div id="chat-section" class="container-fluid story-height">
+ <div class="row">
+	 <div class="chat-bubble">
+		 <i class="fa fa-comments text-center" aria-hidden="true"></i>
+	 </div>
+	 </div>
+</div>
+ <!--Chat Image ends  -->
 
  <!--Footer starts here-->
 <footer class="container-fluid footer">

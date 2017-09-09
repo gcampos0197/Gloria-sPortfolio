@@ -1,19 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+/*universal*/
+
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
 
 /*nav bar styles*/
 .portfolio-logo {
   font-family: fantasy;
 }
 
+/*hero*/
+.hero {
+  background-image: url('../img/hero.jpeg');
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  background-attachment: fixed;
+}
+
+.hero-box {
+  height: 550px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+}
+
+.me-img {
+  width: 250px;
+  background-position: center;
+}
+
 /*chat image styles*/
+
+#chat-section {
+  margin-top:0px;
+  background-image: url('../img/files.jpeg');
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  background-attachment: fixed;
+}
+
 .chat-bubble {
-  margin: 0 auto;
+  margin-top: 50px;
 }
 
  i.fa-comments {
    font-size: 200px;
    display:block;
  }
+
+ /*phone sections*/
+ .telephone {
+  background-image: url('../img/color-plants.jpeg');
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  opacity: .7;
+}
+
+
+
+.white-text {
+  color: white;
+  opacity: 1;
+}
 
 
 /*projects styles*/
@@ -27,7 +85,7 @@
 
 .footer {
   height: 130px;
-  background-color: #167c07;
+  background-color: darkgrey;
   opacity: .7;
   margin-top: 15px;
   padding-top: 15px;
