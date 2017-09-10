@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+
 /*universal*/
 
 .thin-text {
@@ -16,18 +16,23 @@
 /*hero*/
 .hero {
   background-image: url('../img/hero.jpeg');
-  height: 700px;
+  height: 1200px;
   background-position: center;
   background-size: cover;
   padding: 30px;
   background-attachment: fixed;
 }
 
+h1 {
+  font-family: 'Vibur', cursive;
+}
+
 .hero-box {
-  height: 550px;
-  background-color: #fff;
   background-color: rgba(255, 255, 255, 0.5);
   margin-top: 50px;
+  width: 1170px;
+  height: 550px;
+  padding: 30px;
 }
 
 .me-img {
@@ -38,12 +43,74 @@
 }
 
 /*skills styles*/
-#skills {
-  
+/*.skills-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+}*/
+
+.skill {
+  font-size: 30px;
 }
 
-/*chat image styles*/
-#chat-section {
+.skills-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1170px;
+  height: 200px;
+  padding: 40px;
+}
+
+
+
+
+/*projects styles*/
+/*carousel styles*/
+.item {
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+
+#projectscover {
+  background-image: url('../img/projectscover.jpg');
+}
+
+
+#petstore {
+  background-image: url('../img/pet.jpg');
+}
+
+.flex-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#restuarant {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#carousel-logo {
+  height: 200px;
+}
+
+.carousel-caption {
+  padding-bottom: 10em;
+}
+
+.btn-warning {
+  background-color: #f8512f;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #D34326;
+}
+
+
+/*contacct styles*/
+.contact-box {
   margin-top:0px;
   background-image: url('../img/files.jpeg');
   height: 350px;
@@ -62,37 +129,12 @@
    display:block;
  }
 
- /*phone sections*/
- .telephone {
-  background-image: url('../img/color-plants.jpeg');
-  height: 400px;
-  background-position: center;
-  background-size: cover;
-  padding: 30px;
-  opacity: .7;
-}
-
-
-
-.white-text {
-  color: white;
-  opacity: 1;
-}
-
-
-/*projects styles*/
-
-.project-img {
-
-}
-
 
 /*Footer section styles*/
 
 .footer {
   height: 130px;
   background-color: #000;
-  margin-top: 15px;
   padding-top: 15px;
 }
 
