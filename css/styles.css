@@ -33,10 +33,16 @@
 .me-img {
   width: 250px;
   background-position: center;
+  border: ridge white;
+  border-width: 15px;
+}
+
+/*skills styles*/
+#skills {
+  
 }
 
 /*chat image styles*/
-
 #chat-section {
   margin-top:0px;
   background-image: url('../img/files.jpeg');
@@ -85,8 +91,7 @@
 
 .footer {
   height: 130px;
-  background-color: darkgrey;
-  opacity: .7;
+  background-color: #000;
   margin-top: 15px;
   padding-top: 15px;
 }
