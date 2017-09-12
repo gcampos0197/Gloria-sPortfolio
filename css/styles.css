@@ -1,4 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 /*universal*/
 
 .thin-text {
@@ -15,16 +17,36 @@
 
 /*hero*/
 .hero {
-  background-image: url('../img/hero.jpeg');
-  height: 1200px;
-  background-position: center;
+  background-image: url('../img/bg.jpg');
+  min-height: 1200px;
   background-size: cover;
   padding: 30px;
   background-attachment: fixed;
 }
 
-h1 {
-  font-family: 'Vibur', cursive;
+/*#bg {
+  background-image: url('../img/projectscover.jpg');
+  background-size: cover;
+  min-height: 100%;
+}*/
+
+.welcome {
+  font-family: 'Rock Salt', cursive;
+  font-size: 60px;
+  color: ;
+  text-shadow: 8px 5px #ffb028;
+  z-index: 10;
+  position: relative;
+}
+
+h2{
+  color: #fff;
+}
+
+.bio {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 .hero-box {
@@ -35,11 +57,19 @@ h1 {
   padding: 30px;
 }
 
+.photo {
+  background-image: url('../img/Gloria.jpg');
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  position:relative;
+  z-index: 2;
+
+}
 .me-img {
-  width: 250px;
-  background-position: center;
-  border: ridge white;
-  border-width: 15px;
+  width: 300px;
+  margin: auto;
+  position: absolute;
 }
 
 /*skills styles*/
@@ -73,7 +103,10 @@ h1 {
 }
 
 #projectscover {
-  background-image: url('../img/projectscover.jpg');
+  background-image: url('../img/projects.jpg');
+  font-family: 'Rock Salt', cursive;
+  text-shadow: 8px 5px #fff;
+  font-size: 40px;
 }
 
 
@@ -108,20 +141,23 @@ h1 {
   background-color: #D34326;
 }
 
+.carousel-container {
+  position:relative;
+}
 
+s
 /*contacct styles*/
 .contact-box {
-  margin-top:0px;
-  background-image: url('../img/files.jpeg');
-  height: 350px;
-  background-position: center;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  width: 1170px;
+  height: 550px;
   padding: 30px;
-  background-attachment: fixed;
 }
 
 .chat-bubble {
   margin-top: 50px;
+  border-left: 2px;
 }
 
  i.fa-comments {
